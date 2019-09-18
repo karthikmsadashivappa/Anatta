@@ -1,0 +1,48 @@
+{
+  "name": "anatta-task",
+  "version": "1.0.0",
+  "homepage": "http://karthikmsadashivappa.github.io/Anattagit "
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "gh-pages": "^2.1.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.15",
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-image-show": "^0.3.4",
+    "react-owl-carousel2": "^0.3.0",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "style.css": "^1.0.0"
+  }
+}
+
+
+
